@@ -22,6 +22,7 @@ public:
                     sort(vec.begin(), vec.end());
                     set.insert(vec);
                     l--;
+                    f++;
                 } else if (sum >= 0) {
                     l--;
                 } else {
