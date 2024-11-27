@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
-        set<int> ans;
+        unordered_set<int> ans;
         int n = nums.size();
 
         //Populating the set with all the values from 1 to n
